@@ -1,5 +1,5 @@
 @charset"UTF-8";
-
+/* background-image: url("fundo7.jpg");*/
 	      body{
 	      	background-color:white;
 	      	color:rgba(0,0,0,1);
@@ -9,3 +9,4 @@
 	    p{ text-align: justify;
 	    	text-indent: 50px;
 	      }
+/*Formatação de imagem com legenda*/
