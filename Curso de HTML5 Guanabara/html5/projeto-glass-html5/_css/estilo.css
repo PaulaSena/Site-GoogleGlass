@@ -32,13 +32,39 @@ figure.foto-legenda{
  	box-sizing: border-box;
  	transition: opacity 1s;
 }
-/*sobre posição de legenda na imagem com malse */
+/*sobre posição de legenda na imagem com mause */
 figure.foto-legenda:hover figcaption{
 	opacity: 1;
 	/*transisão*/
 }
 /*Formataçao do menu  */
-/* para id utilizasse # */
+/* para id utiliza-se # */
 nav#menu{
+	display: block;
+}
 
+nav#menu  ul{
+	/*nome - tirando marcadores uppercase */
+	list-style: none;
+	text-transform: uppercase; /*uppercase - maiusculos*/
+	/*position: relative;*dentro do conteiner*/
+	position: absolute;
+	top: -18px;
+	left: 300px;/*derecionamento lateral do menu*/
+}
+nav#menu li{
+	display: inline-block;/* blocos na mesma linha horizontal*/
+	background-color:#dddddd;
+	padding: 10px; /* espaço dentro da borda*/ 
+	margin: 2px;/*espaço de margem entre botoes*/
+	transition:background-color 2s;
+}
+
+nav#menu li:hover {/*ao passar o mause*/
+	background-color: #606060;
+
+}
+
+nav#menu h1{
+	display: none;/*esconter escrita do menu principal*/
 }
