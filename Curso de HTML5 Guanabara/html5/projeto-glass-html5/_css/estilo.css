@@ -127,6 +127,13 @@ section#corpo{
 	border-right: 1px solid #606060;/*linha central*/
 	padding-right: 20px;
 }
+table#tabelaspac{
+	border: 1px solid #606060;
+}
+table#tabelaspac td{
+	border: 1px solid #606060;
+	border-spacing: 0px;
+}
 
 aside#lateral{
 	display: block;
