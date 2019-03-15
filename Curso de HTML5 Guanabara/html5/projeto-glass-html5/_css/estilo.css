@@ -163,7 +163,7 @@ header#cabecalho-artigo h1{
    font-size: 20pt;
    color: #606060;
    margin-bottom: 0px;
-   margin-top: 0px;
+   margin-top: 2px;
 }
 header#cabecalho-artigo h2{
 	font-size: 13pt;
@@ -176,9 +176,6 @@ header#cabecalho-artigo h2{
 	text-align: right;
 }
 
-header#cabecalho-artigo h3{
-
-}
   /* Tabela */
 
 table#tabelaspec{
@@ -221,7 +218,7 @@ aside#lateral{
 	width: 360px;
 	float: right;
 	background-color: #dddddd;
-	padding: 9px;
+	padding: 8px;
 	margin-top: 0px;
 	box-shadow: 2px 1px 4px rgba(0,0,0,.5);
 }
@@ -236,7 +233,7 @@ aside#lateral h2{
     background-color: #606060;
 	font-size:13pt;
 	color:#ffffff;
-	padding: 1px;
+	padding: 2px;
 
 }
 
