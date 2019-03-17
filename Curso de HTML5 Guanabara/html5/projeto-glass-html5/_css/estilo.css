@@ -7,7 +7,7 @@
 
                                /* background-image: url("fundo7.jpg");*/
 	      body{
-	      	background-color:white;
+	      	background-color:#dddd;
 	      	color:rgba(0,0,0,1);
 	      	font-family: arial,sans-serif;
 	      	}
@@ -17,7 +17,7 @@
   /*POSICIONAMENTO CENTRAL*/
 
 div#interface{
-	width:900px;
+	width:900px; /*Largura*/
 	background-color: #ffffff;
 	margin:-21px auto auto auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -34,15 +34,15 @@ div#interface{
 	      }
 
 
-  /* Configuração de Texto */
+  /* Cabeçalho e BORDA HORIZONTAL */
 
 header#cabecalho img#icone{
 		position: absolute;
-		left:950px; 
-		top:80px;
+		left:920px; 
+		top:70px;
 }
 
-header#cabecalho{
+header#cabecalho{ /*BORDA HORIZONTAL DO CABECALHO*/
 			border-bottom: 1px #606060 solid;
 			height: 150px;
 			background:url("../_imagens/glass-logo-peq.jpg")no-repeat 0px 80px;
@@ -53,6 +53,7 @@ header#cabecalho h1{
 	color:#606060;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 	margin-bottom: 0px;
+	padding: 0px;
 }
 header#cabecalho h2{
 	font-family: Arial, sans-serif;
@@ -108,7 +109,7 @@ nav#menu  ul{
 	                              /*position: relative;*dentro do conteiner*/
 	position: absolute;
 	top: -18px;
-	left: 400px;                         /*derecionamento lateral do menu*/
+	left: 430px;                         /*derecionamento lateral do menu*/
 }
 nav#menu li{
 	display: inline-block;               /* blocos na mesma linha horizontal*/
@@ -219,7 +220,7 @@ aside#lateral{
 	float: right;
 	background-color: #dddddd;
 	padding: 8px;
-	margin-top: 0px;
+	margin-top: 12px;/*espaço da barra horizontal*/
 	box-shadow: 2px 1px 4px rgba(0,0,0,.5);
 }
 
