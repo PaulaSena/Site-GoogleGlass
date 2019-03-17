@@ -1,19 +1,47 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title> Tudo Sobre Google Glass </title>
+    <!-- Integrando CSS3 e JavaScript no HTML5 -->
+<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+<script language="javascript" src="_javascript/funcoes.js"></script>
 
-[AQUI ENTRA UMA FOTO]
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body>
 
-Glass > Fotos
-Galeria de Imagens do Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+<div id="interface">
+  
+   <header id="cabecalho">
+    <hgrup>
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+    </hgrup>
+ <!--Inserindo imagem e estilizando no css com o Id-->
+ <img id="icone" src="_imagens/fotos.png">
+            
+<nav id="menu">
+<!--Efeito para mudanca de imagem com onmouseover-->
+    <h1>Menu Principal</h1>
+<ul type="disc">
+<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/fotos.png')" /><a href="index.html"> Home</a></li>
+<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/fotos.png')"/><a href="specs.html">Especificações</a></li>
+<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/fotos.png')"/><a href="fotos.html">Fotos</a></li>
+<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/fotos.png')"/><a href="multimidia.html">Multimídia</a></li>
+<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+</ul>
+</nav>
+</header>
+    <header id="cabecalho-artigo">
+
+<hgrup>
+<h3>Glass> Fotos</h3>
+<h1>Galeria de Imagens do Google Glass</h1>
+<h2>por Paula Sena</h2>
+<h3 class="direita">Atualizado em 17/Março/2019</h3>
+</hgrup>
+</header>
 
 Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.
 
@@ -24,6 +52,11 @@ Veja na nossa galeria de fotos várias belas imagens que mostram algumas das pri
 - Vários tipos de lente
 - Informações importantes
 
-Copyright 2013 - by Gustavo Guanabara
-
-Facebook | Twitter
+<footer id="rodape" style="background-color: pink">
+Copyright 2019 - by Paula Sena &nbsp;
+<a href="https://www.facebook.com/paula.sena.3958"target="_blanc">Facebook</a>&nbsp;| <a href="https://www.linkedin.com/in/paula-sena-b86a19175/"target="_blanc"> Linkedin</a>&nbsp;|&nbsp;<a href="https://github.com/PaulaSena"target="_blanc">Github </a> 
+</footer>
+</div>
+</body>
+</head>
+</html>
