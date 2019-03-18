@@ -4,12 +4,14 @@
 	src:url("../_fonts/bubblegum-sans-regular.otf");
 
 }
-aside#tela{
+aside#corpo-full{
 	display: block;
-	width: 300px;
-	float:right;
-	background-color:#cececece;
-	margin:15px;
+}
 
-	padding: 5px;
+section#conteudo{
+	width: 900px;
+	margin: auto;
+}
+iframe#frame-specs{
+
 }
