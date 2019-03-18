@@ -2,3 +2,21 @@
 @font-face{
 	font-family: 'FonteLogo';
 	src:url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+ul#album-fotos{
+	display:block;
+	width: 500px;
+	height: 500px;
+	list-style: none;
+	padding: 50px;
+	margin: 0px;
+}
+
+ul#album-fotos li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: #cecece;
+	margin: 20px;
+}
