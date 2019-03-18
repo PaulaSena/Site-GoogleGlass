@@ -17,7 +17,3 @@ iframe#frame-specs{
 	width: 380px;
 	height: 280px;
 	}
-iframe#frame-specs::-webkit-scrollbar{
-	display: none;
-	overflow: hidden;
-}
