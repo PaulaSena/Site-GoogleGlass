@@ -16,4 +16,5 @@ iframe#frame-specs{
 	border: none;
 	width: 380px;
 	height: 280px;
+	overflow: hidden;
 	}
