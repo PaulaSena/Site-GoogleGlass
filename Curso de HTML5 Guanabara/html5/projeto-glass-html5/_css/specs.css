@@ -13,5 +13,8 @@ section#conteudo{
 	margin: auto;
 }
 iframe#frame-specs{
-
+	border: none;
+	width: 380px;
+	height: 280px;
+	
 }
