@@ -5,8 +5,11 @@
 
 }
 aside#tela{
-	width: 400px;
-	height: 400px;
-	padding: 5px;
+	display: block;
+	width: 300px;
+	float:right;
+	background-color:#cececece;
+	margin:15px;
 
+	padding: 5px;
 }
