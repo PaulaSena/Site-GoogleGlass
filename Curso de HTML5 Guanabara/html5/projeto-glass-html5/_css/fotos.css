@@ -5,18 +5,19 @@
 }
 
 ul#album-fotos{
-	display:block;
-	width: 500px;
-	height: 500px;
+	width: 800px;
 	list-style: none;
-	padding: 50px;
+	padding: 110px;
 	margin: 0px;
+	overflow: hidden;
 }
 
 ul#album-fotos li{
 	float: left;
 	width: 200px;
 	height: 200px;
-	background-color: #cecece;
-	margin: 20px;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+	margin: 10px;
+	border: 5px solid #ffffff;
 }
