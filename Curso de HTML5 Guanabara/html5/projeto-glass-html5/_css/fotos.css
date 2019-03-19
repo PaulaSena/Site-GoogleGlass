@@ -6,7 +6,19 @@
 
 
 ul#album-fotos li span{
+	color: #ffffff;
+	padding: 5px;
+	margin:5px;
+	opacity: 0;/*aparecer apenas ao mover o mause */
+	text-shadow: 1px 1px 2px black;
+	font-size: 11px;
+	background-color: rgba(0,0,0,.2);
+	box-shadow: 1px 1px 3px rgba(0,0,0,.7);
+	line-height: 370px;
+}
 
+ul#album-fotos li:hover span{
+	opacity: 1;
 }
 
 ul#album-fotos{
