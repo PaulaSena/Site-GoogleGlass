@@ -1,7 +1,10 @@
-@charset"utf-8";
+@charset"UTF-8";
 
 
-div#video-esq{
-	
+div#tv-radio{
+	width: 500px;
+	height: 500px
+	margin: 10px;
+	background-color: #cecece;	
 
 }
