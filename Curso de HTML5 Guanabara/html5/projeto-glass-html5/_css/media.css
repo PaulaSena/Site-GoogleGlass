@@ -15,7 +15,7 @@ audio#musica{
 	top:488px;
 }
 /* video do Youtube */
-iframe#youtube-multimidia{
+iframe#video-multimidia{
 	display: block;
 	position: relative;
 	left: 80px;
@@ -24,6 +24,14 @@ iframe#youtube-multimidia{
 	height: 310px;
 }
 
+div#video-dir{
+	display: block;
+	position: relative;
+
+}
+
+
 div#video-esq{
-	margin-top: inherit;
+	display: block;
+	position: relative;
 }
