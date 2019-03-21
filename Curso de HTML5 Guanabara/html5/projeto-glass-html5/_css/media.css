@@ -2,9 +2,9 @@
 
 
 div#tv-radio{
-	width: 500px;
-	height: 500px
-	margin: 10px;
-	background-color: #cecece;	
-
+	width: 900px;
+	height: 580px;
+	margin: auto;
+	background:url("../_imagens/radio-tv.png")no-repeat;
 }
+
