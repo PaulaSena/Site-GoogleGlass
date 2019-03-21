@@ -14,14 +14,14 @@ audio#musica{
 	left: 573px;
 	top:488px;
 }
-video#filme{
+/* video do Youtube */
+iframe#youtube-multimidia{
 	display: block;
 	position: relative;
 	left: 80px;
-	top: -50px;
+	top: 30px;
 	width: 453px;
-	height: 395px;
-	bottom: 530px;
+	height: 310px;
 }
 
 div#video-esq{
