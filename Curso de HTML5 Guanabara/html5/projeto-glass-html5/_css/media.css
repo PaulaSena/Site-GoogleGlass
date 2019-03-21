@@ -23,15 +23,3 @@ iframe#video-multimidia{
 	width: 453px;
 	height: 310px;
 }
-
-div#video-dir{
-	display: block;
-	position: relative;
-
-}
-
-
-div#video-esq{
-	display: block;
-	position: relative;
-}

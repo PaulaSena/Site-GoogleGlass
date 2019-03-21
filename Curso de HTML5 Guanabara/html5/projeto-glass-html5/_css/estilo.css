@@ -239,6 +239,27 @@ aside#lateral h2{
 
 }
 
+div#video-esq{
+	width: auto;
+
+
+}
+video#esq{
+
+}
+
+div#video-dir{
+	width: 357px;
+	height: auto;	
+}
+
+video#dir{
+	display: block;
+	position: relative;
+	width: 357px;
+	height: auto;
+}
+
 footer#rodape{
 	text-align: center;
 	clear: both;
