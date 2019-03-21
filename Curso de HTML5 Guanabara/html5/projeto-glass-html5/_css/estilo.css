@@ -239,6 +239,11 @@ aside#lateral h2{
 
 }
 
+ aside div#video-esq{
+	margin-top: inherit;
+}
+
+
 footer#rodape{
 	text-align: center;
 	clear: both;
