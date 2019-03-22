@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title> Tudo Sobre Google Glass </title>
+    <title> Fale Conosco </title>
     <!-- Integrando CSS3 e JavaScript no HTML5 -->
 <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
 <script language="javascript" src="_javascript/funcoes.js"></script>
@@ -47,12 +47,12 @@
 <form>
 
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
-<p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder=" Nome Completo"></p>
-<p>Senha: <input type="text" name="tSenha" id="cSenha" size="20" maxlength="8" placeholder=" Senha de 8 caracteres"></p>
-<p>E-mail: <input type="text" name="tEmail" id="cEmail" size="25" maxlength="30" placeholder=" exemplo gmail.com"></p>
+<p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder=" Nome Completo"></p>
+<p><label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="20" maxlength="8" placeholder=" Senha de 8 caracteres"></p>
+<p><label for="cEmail">E-mail:</label> <input type="email" name="tEmail" id="cEmail" size="25" maxlength="40" placeholder=" exemplo gmail.com"></p>
 <fieldset><legend>Sexo</legend>
-        - Masculino
-        - Feminino
+        <input type="radio" name="tSexo" id="cMasc"/><label for="cMasc"> Masculino </label><br/>
+        <input type="radio" name="tSexo" id="cFeme"/><label for="cFeme"> Feminino </label>
     </fieldset>
     <p>Data de Nascimento:</p>
     </fieldset>
