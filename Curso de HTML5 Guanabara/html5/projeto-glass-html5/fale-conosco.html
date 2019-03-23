@@ -56,15 +56,22 @@
         <input type="radio" name="tSexo" id="cFeme"/><label for="cFeme"> Feminino </label>
     </fieldset>
    
-<p><label for="cDate"> Data de Nascimento: </label><input type="date" name="tDate" id="cDate"></p>
+<p><label for="cDate"> Data de Nascimento: </label><input type="date" name="tDate" id="cDate" size="9"></p>
     </fieldset>
 
 
 <fieldset id="endereco"><legend>Endereço do Usuário</legend>
-<p><label for="cLoga"> Logadouro: </label></p><input type="text" name="tloga" id="cLoga" size="50" maxlength="180">
-<p><label for=""> Número: </label></p><input type="number" name="">
-<p><label for=""> Estado: </label></p>
-<p><label for=""> Cidade: </label></p>
+<p><label for="cRua"> Logadouro: </label><input type="text" name="tRua" id="cRua" size="30" maxlength="80" placeholder="Av. Rua. Trav. "></p>
+<p><label for="cN"> Número: </label><input type="number" name="tN" id="cN" min="0"  max="999999"> </p>
+
+<p><label for="cUf"> Estado: </label>
+<select name="tUf" id="cUf">
+	<option> São Paulo </option>
+	<option> Rio de Janeiro </option>
+	<option> Minas Gerais </option>
+</p></select>
+
+<p><label for="cCyti"> Cidade: </label></p>
     
     </fieldset>
 
