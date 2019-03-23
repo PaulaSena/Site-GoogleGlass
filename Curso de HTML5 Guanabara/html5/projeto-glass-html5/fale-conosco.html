@@ -66,9 +66,20 @@
 
 <p><label for="cUf"> Estado: </label>
 <select name="tUf" id="cUf">
-	<option> São Paulo </option>
-	<option> Rio de Janeiro </option>
-	<option> Minas Gerais </option>
+	<optgroup label="Região Sudeste" selected="SP">
+        <option value="SP"> São Paulo </option>
+        <option value="RJ"> Rio de Janeiro </option>
+        <option value="MG"> Minas Gerais </option>
+    </optgroup>
+
+    <optgroup label="Região Sul">
+        <option value="parana">Paraná</option>
+        <option value="santa catarina">Santa Catarina</option>
+        <option>Rio Grande do Sul</option>
+    </optgroup>
+
+
+
 </p></select>
 
 <p><label for="cCyti"> Cidade: </label></p>
@@ -77,10 +88,11 @@
 
 
  <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
-    Grau de Urgência:
-<p></p>
+    <p>Grau de Urgência:</p>
     <fieldset><legend>Mensagem:</legend>
-    <label></label><input type="text" name="Digite uma mensagem:">
+    <frame scrolling="yes">
+
+    <submit></submit>
     <br>
     <br>
     <br>
