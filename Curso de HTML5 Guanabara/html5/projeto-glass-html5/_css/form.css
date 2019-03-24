@@ -1,6 +1,21 @@
-@charset='UTF8';
+@charset 'UTF8';
     
     form{
-    	width: 800px;
+    	width: 500px;
+    	margin: auto;
+    }
+    input, textarea:hover{
+    	font-family: sans-serif;
+    	font-weight: normal;
+    	font-size: 13pt;
+    }
 
+    input:hover, textarea:hover{
+    	background-color: #cecece;
+    }
+    legend{
+    	color: #888888;
+    	font-weight: bold;
+    	font-size: 13pt;
+    	font-family: sans-serif;
     }
