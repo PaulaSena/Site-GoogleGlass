@@ -5,7 +5,18 @@
     <title> Fale Conosco </title>
     <!-- Integrando CSS3 e JavaScript no HTML5 -->
 <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+<link rel="stylesheet" type="text/css" href="_css/form.css">
 <script language="javascript" src="_javascript/funcoes.js"></script>
+
+<script>
+     function calc_total() {
+        var qtd = parseInt( document.getElementById('cQtd').value);
+        tot = qtd*1500;
+        document.getElementById('cTot').value=tot;
+         // body...
+     }
+
+</script>
 
 </head>
 
@@ -44,7 +55,7 @@
 </header>
 
 <!-- Formulario de Contato  / Fazer Alteração com PHP futuramente -->
-<form method="post" id="fContato" action="mailto:senasilvaanapaula@gmail.com">
+<form method="post" id="fContato" action="mailto:senasilvaanapaula@gmail.com" oninput="calc_total();">
 
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
 
@@ -103,25 +114,28 @@
  <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
     <p><label for="cUrg">Grau de Urgência:</label>
     Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx</p>
-    <fieldset auto><label for="cMsg" ><legend>Mensagem:</legend></label>
-    <textarea name="tMsg" id="cMsg" rows="6" cols="115" placeholder="Deixe aqui sua mensagem"></textarea>
-</fieldset> 
+    <label for="cMsg" ><legend>Mensagem:</legend></label>
+    <textarea name="tMsg" id="cMsg" rows="6" cols="80" placeholder="Deixe aqui sua mensagem"></textarea>
 
 </fieldset>
 
  <fieldset id="pedido"><legend>Quero um Google Glass</legend> 
-    <p><input type="checkbox" name="tPed" id="cPed">
-    <p><label for="cPed"> Gostaria de adquirir um Google Glass quando disponível</label><input type="color" name="tCor" id="cCor"></p>
-    <p><label for="cCor"> Cor: </label></p>
-    <p><label for="cQtd"> Quantidade: </label><input type="number" name="tQtd" id="cQtd" min="0" max="100"></p>
+    <p><input type="checkbox" name="tPed" id="cPed" checked>
+    <label for="cPed"> Gostaria de adquirir um Google Glass quando disponível</label></p>
+    <p><label for="cCor"> Cor: </label><input type="color" name="tCor" id="cCor" value="#cecece"></p>
+    <p><label for="cQtd"> Quantidade: </label><input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0"></p>
     <p><label for="cTot"> Preço Total: R$ </label>
-    <input type="text" name="tTot" id="cTot"></p>
+    <input type="text" name="tTot" id="cTot" placeholder="  Total a pagar" readonly></p>
 </fieldset>
 
 </form>
 
 <!--inserindo um botão com imagem-->
-<a href="https://www.youtube.com/watch?v=metoFY-x_yg&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=35"><img src="_imagens/botao-enviar.png" ></a>
+
+<input type="image" name="tEnviar" id="cEnviar" src="_imagens/botao-enviar.png">
+
+
+<!--<a href="https://www.youtube.com/watch?v=metoFY-x_yg&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=35"><img src="_imagens/botao-enviar.png" ></a> -->
     
 
 <footer id="rodape" style="background-color: pink">
