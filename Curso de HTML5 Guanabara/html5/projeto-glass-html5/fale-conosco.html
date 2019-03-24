@@ -43,8 +43,8 @@
 </hgrup>
 </header>
 
-<!-- Formulario de Contato-->
-<form>
+<!-- Formulario de Contato  / Fazer Alteração com PHP futuramente -->
+<form method="post" id="fContato" action="mailto:senasilvaanapaula@gmail.com">
 
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
 <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder=" Nome Completo"></p>
@@ -73,28 +73,32 @@
     </optgroup>
 
     <optgroup label="Região Sul">
-        <option value="parana">Paraná</option>
-        <option value="santa catarina">Santa Catarina</option>
-        <option>Rio Grande do Sul</option>
+        <option value="PR">Paraná</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="RS">Rio Grande do Sul</option>
     </optgroup>
 
 </p></select>
 
-<p><label for="cCyti"> Cidade: </label></p>
-    
-    </fieldset>
+<!--Utilizar php-->
+
+<p><label for="cCyti"> Cidade: </label>
+<input type="text" name="tCyti" id="cCyti" maxlength="40" size="20" placeholder="Digite sua Cidade" list="cidade">
+<datalist id="cidade">
+    <option value="São Paulo"></option>
+    <option value="Osasco"></option>
+    <option value="Barueri"></option>
+    <option value="Carapicuiba"></option>
+
+</datalist>
+    </p></fieldset>
 
 
  <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
-    <p>Grau de Urgência:</p>
-    <fieldset><legend>Mensagem:</legend>
-    <frame scrolling="yes">
-
-    <submit></submit>
-    <br>
-    <br>
-    <br>
-
+    <p><label for="cUrg">Grau de Urgência:</label>
+    Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx</p>
+    <fieldset auto><label for="cMsg" ><legend>Mensagem:</legend></label>
+    <textarea name="tMsg" id="cMsg" rows="6" cols="115" placeholder="Deixe aqui sua mensagem"></textarea>
     </fieldset> 
 
     </fieldset>
