@@ -1,4 +1,4 @@
-# site-html5
+# Site Google Glass
 Desenvolvimento de um Site referente aos óculos Google Glass, realizado com utilização de Html5 para dar estrutura do site, Css3 para estilizar e modelar,JavaScript para criar conteúdo interativo. 
 
 Na pagina contem contem um menu interativo com a visualização de imagem dos ícones ao passar o mouse com os campos: Home, Especificações, Fotos, Multimídia e Fale conosco.
