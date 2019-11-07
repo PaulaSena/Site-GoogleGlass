@@ -57,10 +57,11 @@ Pagina Fale Conosco :
 
 #### Projeto do Curso de HTML5 Prof Gustavo Guanabara. 
 ##### Curso em Video.
-##  Super Recomendo me ajudou muito!!!
+
+###  Super Recomendo me ajudou muito!!!
+
 ####  Aulas de Alta qualidade e facil entendimento.
 ####  https://www.cursoemvideo.com/
 
-Pagina Prof Gustavo Guanabara : 
-![alt text](https://www.youtube.com/user/cursosemvideo
- " Gustavo Title Text 1")
+Youtube Gustavo Guanabara : 
+https://www.youtube.com/user/cursosemvideo
