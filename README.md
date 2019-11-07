@@ -12,7 +12,8 @@ dos ícones ao passar o mouse com os campos:
 Home, Especificações, Fotos, Multimídia e Fale conosco. 
 
 Pagina inicial: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%201%20-%20Tudo%20Sobre%20Google%20Glass.png?raw=true "image Title Text 1")
+
 
 
 ### Na pagina principal Home 
