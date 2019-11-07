@@ -27,5 +27,5 @@ campo de endereço mensagem e campo com exibição do preço do óculos
 ao selecionar a quantidade de produto. 
 
 
-####Projeto do Curso de HTML5 Prof Gustavo Guanabara. 
+#### Projeto do Curso de HTML5 Prof Gustavo Guanabara. 
 ##### Curso em Video.
