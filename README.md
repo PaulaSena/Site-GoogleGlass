@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Google Glass
 
@@ -153,6 +153,3 @@ Pagina Fale Conosco :
 ### Youtube Gustavo Guanabara : 
 #### [https://www.youtube.com/user/cursosemvideo](https://www.youtube.com/user/cursosemvideo)
 
-
-
->>>>>>> 02dc4a37d93bcb3c42698fb544ff04752cb56dca
