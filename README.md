@@ -1,6 +1,6 @@
 # Google Glass
 
-## Neste meu primeiro projeto foi realizado o desenvolvimento de um Site referente aos óculos Google Glass.
+### Neste meu primeiro projeto foi realizado o desenvolvimento de um Site referente aos óculos Google Glass.
 
  Para realização desse projeto foi utilizada as seguintes linguagens:
 
