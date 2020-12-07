@@ -2,6 +2,8 @@
 
 ### Neste meu primeiro projeto foi realizado o desenvolvimento de um Site referente aos óculos Google Glass.
 
+(https://paulasena.github.io/Site-GoogleGlass/.) Pagina apresentação:https://paulasena.github.io/Site-GoogleGlass/
+
  Para realização desse projeto foi utilizada as seguintes linguagens:
 
   - Html5 linguagem de marcação de Texto para dar estrutura do site. <br>
