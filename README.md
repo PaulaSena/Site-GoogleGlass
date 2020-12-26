@@ -22,7 +22,7 @@ Na Home também contem artigos, tabela, imagem e vídeos.
 
 Pagina inicial: 
 
-![alt text](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%201%20-%20Tudo%20Sobre%20Google%20Glass.png?raw=true " Home Title Text 1")
+![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%201%20-%20Tudo%20Sobre%20Google%20Glass.png" Home Title Text 1")
 
 ## Nas Especificações: 
 Contem artigos, linkado com a imagem mapeada no óculos Google Glass. 
@@ -30,7 +30,7 @@ Contem artigos, linkado com a imagem mapeada no óculos Google Glass.
 
 Pagina Especificações:
 
-![alt text](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%202%20-%20Especifica%C3%A7%C3%B5es.png?raw=true
+![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%202%20-%20Especifica%C3%A7%C3%B5es.png
  " Especificações Title Text 1")
 
 ## No menu em Fotos:
@@ -39,7 +39,7 @@ Contem imagens e ao passar do mouse a imagem se expande.
 
 Pagina Fotos :
 
-![alt text](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%204%20-%20Fotos.png?raw=true
+![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%204%20-%20Fotos.png
  "Fotos  Title Text 1")
 
 
@@ -49,7 +49,7 @@ Contem arquivo de Áudio e Vídeo.
 
 Pagina Multimídia :
 
-![alt text](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%203%20-%20Mult%C3%ADmidia.png?raw=true
+![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%203%20-%20Mult%C3%ADmidia.png
  " Multimídia Title Text 1")
 
 
@@ -60,7 +60,7 @@ ao selecionar a quantidade de produto.
 
 Pagina Fale Conosco : 
 
-![Fale Conosco](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%205%20-%20Fale%20Conosco.png?raw=true
+![Fale Conosco](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%205%20-%20Fale%20Conosco.png
  " Fale Conosco Title Text 1")
 
 
