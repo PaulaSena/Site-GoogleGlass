@@ -21,8 +21,8 @@ Na Home também contem artigos, tabela, imagem e vídeos.
 
 
 Pagina inicial: 
+![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%201%20-%20Tudo%20Sobre%20Google%20Glass.png " Home Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%201%20-%20Tudo%20Sobre%20Google%20Glass.png" Home Title Text 1")
 
 ## Nas Especificações: 
 Contem artigos, linkado com a imagem mapeada no óculos Google Glass. 
