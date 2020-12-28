@@ -39,7 +39,7 @@ Contem imagens e ao passar do mouse a imagem se expande.
 
 Pagina Fotos :
 
-![alt text](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%204%20-%20Fotos.png?raw=true
+![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%204%20-%20Fotos.png
  "Fotos  Title Text 1")
 
 
@@ -49,7 +49,7 @@ Contem arquivo de Áudio e Vídeo.
 
 Pagina Multimídia :
 
-![alt text](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%203%20-%20Mult%C3%ADmidia.png?raw=true
+![alt text](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%203%20-%20Mult%C3%ADmidia.png
  " Multimídia Title Text 1")
 
 
@@ -60,7 +60,7 @@ ao selecionar a quantidade de produto.
 
 Pagina Fale Conosco : 
 
-![Fale Conosco](https://github.com/PaulaSena/site-html5/blob/master/portifolio%20pag%205%20-%20Fale%20Conosco.png?raw=true
+![Fale Conosco](https://raw.githubusercontent.com/PaulaSena/Site-GoogleGlass/f072dc78fc/portifolio%20pag%205%20-%20Fale%20Conosco.png
  " Fale Conosco Title Text 1")
 
 
